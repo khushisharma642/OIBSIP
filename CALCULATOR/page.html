@@ -1,0 +1,53 @@
+<! DOCTYPE html>
+<html lang="en" dir="ltr" meta charset="UTF-8">
+<head>
+    <title>CALCULATOR</title>
+      <link rel="stylesheet" href="style.css"></a>
+</head>
+<body>
+    <table class="calculator">
+        <tr>
+            <td colspan="4">
+                <input class="display-box" type="text" id="result" diasbled />
+            </td>
+        </tr>
+        <tr>
+        <td><input type="button" value="(" oneclick="display('(')" /></td>
+        <td><input type="button" value=")" oneclick="display(')')" /></td>
+        <td><input type="button" value="ans" oneclick="display('ans')" id="btn" /></td>
+        <td><input type="button" value="del" oneclick="display('del')" id="btn" /></td>
+        <td><input type="button" value="clear" oneclick="display('clear')" id="btn" /></td>
+    </tr>
+        <tr>
+            <td><input type="button" value="7" oneclick="display('7')" /></td>  
+            <td><input type="button" value="8" oneclick="display('8')" /></td>  
+            <td><input type="button" value="9" oneclick="display('9')" /></td> 
+            <td><input type="button" value="%" oneclick="display('%')" /></td> 
+            <td><input type="button" value="√" oneclick="display('√')" /></td>
+        </tr>  
+        <tr>
+            <td><input type="button" value="4" oneclick="display('4')" /></td>  
+            <td><input type="button" value="5" oneclick="display('5')" /></td>  
+            <td><input type="button" value="6" oneclick="display('6')" /></td> 
+            <td><input type="button" value="*" oneclick="display('*')" /></td> 
+            <td><input type="button" value="/" oneclick="display('/')" /></td>
+        </tr> 
+        <tr>        
+            <td><input type="button" value="1" oneclick="display('1')" /></td>   
+            <td><input type="button" value="2" oneclick="display('2')" /></td>  
+            <td><input type="button" value="3" oneclick="display('3')" /></td>
+            <td><input type="button" value="+" oneclick="display('+')" /></td> 
+            <td><input type="button" value="-" oneclick="display('-')" /></td> 
+        </tr> 
+          
+        
+        <tr>
+            <td><input type="button" value="." oneclick="display('.')" /></td>  
+            <td><input type="button" value="0" oneclick="display('0')" /></td> 
+            <td><input type="button" value="±" oneclick="display('±')" /></td>
+            <td><input type="button" value="Enter" oneclick="display('Enter')" id="btn" /></td>
+        </tr> 
+        </table>
+        <script type="text/javascript" src="script.js"></script>
+    </body>
+</html>
